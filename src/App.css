@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.container-input input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.container-List-text {
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
