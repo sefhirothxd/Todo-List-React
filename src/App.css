@@ -1,10 +1,16 @@
 #root {
-  max-width: 1280px;
+  width: 350px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
 }
-
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .container-input {
   display: flex;
   align-items: center;
@@ -12,14 +18,14 @@
   flex-direction: column;
   gap: 20px;
   margin-bottom: 20px;
-  box-sizing: border-box;
+  width: 100%;
 }
 .container-input input {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 .container-List-text {
   color: #ccc;
@@ -27,4 +33,29 @@
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
+}
+.container-input-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.container-input-list div {
+  width: 150px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 20px;
+  color: white;
+  background-color: #242424;
+}
+.container-input-list input {
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 2rem;
 }
